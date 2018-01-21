@@ -1,0 +1,31 @@
+.article{
+    margin-bottom: 44px;
+}
+
+.article:last-of-type {
+    margin-top: 44px;
+    margin-bottom: 30px;
+}
+
+.article-header { 
+    font-family: Pathway Gothic One, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.article-subheader {
+    margin-top: 22px;
+    line-height: 1.4;
+}
+
+.article-text{
+    margin-top: 12px;
+    word-spacing: 0.1em;
+    line-height: 1.4;
+}
+
+.article-agency-profile{
+    display: block;
+    padding-top: 28px;
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+@import url(base.css);
+@import url(article.css);
+@import url(footer.css);
+
+body {
+    background-image: url(../img/page-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    margin: 240px auto;
+    padding: 50px 40px 30px;
+    width: 480px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+hr {
+    border-width: 0;
+    border-top-width: 1px;
+}
+
+.navy {
+    color: navy; 
+}
