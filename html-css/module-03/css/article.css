@@ -24,8 +24,10 @@
     line-height: 1.4;
 }
 
-.article-agency-profile{
-    display: block;
-    padding-top: 28px;
-    width: 100%;
+.article-profile-image {
+    height: 97px;
+    margin-top: 28px;
+    background-image: url(../img/profile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
