@@ -1,0 +1,11 @@
+.profile-image {
+    display: inline-block;
+    width: 360px;
+    height: 280px;
+    margin-right: 25px;
+    background-image: url(../img/profile.jpg);
+}
+
+.profile-img-text {
+    width: calc(100% - 385px);
+}

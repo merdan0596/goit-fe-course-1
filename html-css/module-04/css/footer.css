@@ -1,0 +1,28 @@
+footer {
+    font-size: 15px;
+}
+
+.footer-list {
+    display: inline-block;
+    width: 270px;
+    line-height: 2.2;
+    list-style: none;
+    vertical-align: top;
+}
+
+.footer-list-item {
+    height: 39px;
+    position: relative;
+    padding-left: 24px;
+}
+
+.footer-list-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 14px;
+    width: 10px;
+    height: 100%;
+    background: url(../img/farrow.png) 0% 40% no-repeat;
+}

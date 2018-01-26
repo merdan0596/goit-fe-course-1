@@ -1,0 +1,74 @@
+@import url(base.css);
+@import url(profile.css);
+@import url(article.css);
+@import url(principles.css);
+@import url(testimonial.css); 
+@import url(footer.css);
+
+article {
+    font-size: 0;
+}
+
+aside {
+    display: inline-block;
+    width: 214px;
+    vertical-align: top;
+}
+
+body {
+    background-image: url(../img/page-bg.jpg);
+    background-size: cover;
+}
+
+section {
+    display: inline-block;
+    margin-right: 40px;
+    width: calc(100% - 254px);
+    vertical-align: top;
+}
+
+.catch {
+    color: navy; 
+}
+
+.description {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.divider {
+    padding-top: 44px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 46px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header {
+    margin-bottom: 44px;
+    font-family: Pathway Gothic One, sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.text {
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 19px;
+    word-spacing: 0.1em;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 230px auto;
+    padding: 110px 54px 70px 62px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+

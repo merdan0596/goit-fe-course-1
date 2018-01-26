@@ -1,0 +1,44 @@
+.principle-list {
+    list-style: none;
+    counter-reset: count;
+}
+
+.principle-item {
+    margin-bottom: 30px;
+}
+
+.principle-item:last-child {
+    margin-bottom: 0;
+}
+
+.principle-description {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.principle-description::before {
+    content: counter(count);
+    counter-increment: count;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 2px;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #4f9abc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    background-color: #38afe5;
+    vertical-align: top;
+}
+
+.principle-text {
+    margin-top: -5px;
+    margin-left: 38px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 19px;
+    word-spacing: 0.1em;
+}

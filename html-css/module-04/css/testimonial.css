@@ -1,0 +1,46 @@
+.testimonials {
+    font-size: 13px;
+}
+
+.tmon-header {
+    margin-bottom: 18px;
+    font-family: Pathway Gothic One, sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.tmon {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    background-color: #fcfafa;
+    border: 1px solid #dfdcdc;
+    border-radius: 2px;
+    padding: 20px 18px 20px 22px;
+    width: 210px;
+}
+
+.tmon::before {
+    content: open-quote;
+    margin-right: 5px;
+}
+
+.tmon::after {
+    content: close-quote;
+    margin-left: 5px;
+}
+
+.tmon-author {
+    margin-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 22.8px;
+}
+
+.tmon-depart {
+    margin-top: 11px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 19px;
+    word-spacing: 0.1em;
+}
