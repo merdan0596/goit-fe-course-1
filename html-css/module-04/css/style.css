@@ -5,10 +5,6 @@
 @import url(testimonial.css); 
 @import url(footer.css);
 
-main {
-    font-size: 0;
-}
-
 aside {
     display: inline-block;
     width: 214px;
