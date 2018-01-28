@@ -1,11 +1,11 @@
 @import url(base.css);
 @import url(profile.css);
-@import url(article.css);
 @import url(principles.css);
+@import url(offer.css);
 @import url(testimonial.css); 
 @import url(footer.css);
 
-article {
+main {
     font-size: 0;
 }
 
