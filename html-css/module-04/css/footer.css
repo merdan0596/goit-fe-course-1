@@ -12,17 +12,15 @@ footer {
 
 .footer-list-item {
     height: 39px;
-    position: relative;
-    padding-left: 24px;
 }
 
 .footer-list-item::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
+    content: '\2192';
+    display: inline-block;
+    margin-top: -2px;
     margin-right: 14px;
-    width: 10px;
-    height: 100%;
-    background: url(../img/farrow.png) 0% 40% no-repeat;
+    margin-left: -2px;
+    color: #38afe5;
+    vertical-align: top;
+    transform: scale(0.7, 1.4);
 }
