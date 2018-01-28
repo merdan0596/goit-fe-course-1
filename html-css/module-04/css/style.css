@@ -16,6 +16,10 @@ body {
     background-size: cover;
 }
 
+main {
+    font-size: 0;
+}
+
 section {
     display: inline-block;
     margin-right: 40px;
